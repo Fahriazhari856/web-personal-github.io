@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(#9a08dd 0%, #dd624c 40%, #7420d3 100%);
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.profileImage {
+    width: 200px;
+}
+.profile h2 {
+    color: azure;
+}
+.profile h5 {
+    color: azure;
+    transform: translateY(-10px);
+}
+.biodata {
+    background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #ddfdfd00 100%);
+    padding-bottom: 100px;
+}
+
+.biodata h2{
+    padding: 70px;
+}
+.row {
+    padding: 0px 30px;
+}
+.card {
+    margin-bottom: 1rem;
+  }
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer {
+    background-color: #fffeff;
+    padding-bottom: 100px;
+}
+.contact a{
+    color: black;
+    width: 10px;
+}
+.watermark {
+    padding-top: 30px;
+}
+.achievement {
+    padding: 55px;
+}
+
+/* Definisikan animasi fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Terapkan animasi fade-in pada elemen dengan kelas fade-in */
+.fade-in {
+    animation: fade-in 2s ease-in-out;
+}
+
+/* Anda bisa menyesuaikan durasi dan jenis animasi sesuai kebutuhan */
